@@ -1,0 +1,113 @@
+{
+  "app": {
+    "title": "Gia Phả",
+    "subtitle": "Cây Gia Phả Dòng Họ"
+  },
+  "nav": {
+    "tree": "Cây Phả",
+    "list": "Danh Sách",
+    "about": "Giới Thiệu"
+  },
+  "person": {
+    "firstName": "Tên",
+    "lastName": "Họ",
+    "fullName": "Họ và Tên",
+    "gender": "Giới tính",
+    "male": "Nam",
+    "female": "Nữ",
+    "other": "Khác",
+    "birthDate": "Ngày sinh",
+    "deathDate": "Ngày mất",
+    "isLiving": "Còn sống",
+    "occupation": "Nghề nghiệp",
+    "hometown": "Quê quán",
+    "notes": "Ghi chú",
+    "avatar": "Ảnh đại diện",
+    "generation": "Đời thứ",
+    "father": "Cha",
+    "mother": "Mẹ",
+    "spouse": "Vợ/Chồng",
+    "children": "Con cái",
+    "addPerson": "Thêm Thành Viên",
+    "editPerson": "Sửa Thông Tin",
+    "deletePerson": "Xóa Thành Viên",
+    "addChild": "Thêm Con",
+    "addSpouse": "Thêm Vợ/Chồng",
+    "addParent": "Thêm Cha/Mẹ",
+    "noData": "Chưa có dữ liệu",
+    "confirmDelete": "Bạn có chắc muốn xóa thành viên này?",
+    "selectFather": "Chọn cha",
+    "selectMother": "Chọn mẹ",
+    "selectSpouse": "Chọn vợ/chồng",
+    "uploadAvatar": "Tải ảnh lên",
+    "removeAvatar": "Xóa ảnh"
+  },
+  "tree": {
+    "vertical": "Cây dọc",
+    "horizontal": "Cây ngang",
+    "zoomIn": "Phóng to",
+    "zoomOut": "Thu nhỏ",
+    "fitView": "Toàn cảnh",
+    "collapseAll": "Thu gọn tất cả",
+    "expandAll": "Mở rộng tất cả",
+    "minimap": "Bản đồ nhỏ"
+  },
+  "search": {
+    "placeholder": "Tìm kiếm theo tên...",
+    "noResults": "Không tìm thấy kết quả",
+    "filterGeneration": "Lọc theo đời",
+    "filterOccupation": "Lọc theo nghề",
+    "filterHometown": "Lọc theo quê",
+    "clearFilters": "Xóa bộ lọc",
+    "allGenerations": "Tất cả đời",
+    "allOccupations": "Tất cả nghề",
+    "allHometowns": "Tất cả quê"
+  },
+  "export": {
+    "title": "Xuất dữ liệu",
+    "pdf": "Xuất PDF",
+    "png": "Xuất ảnh PNG",
+    "jsonExport": "Sao lưu JSON",
+    "jsonImport": "Khôi phục từ JSON",
+    "importing": "Đang nhập dữ liệu...",
+    "exportSuccess": "Xuất thành công!",
+    "importSuccess": "Nhập dữ liệu thành công!",
+    "importError": "Lỗi khi nhập dữ liệu. Vui lòng kiểm tra file.",
+    "confirmImport": "Nhập dữ liệu mới sẽ thay thế toàn bộ dữ liệu hiện tại. Bạn có chắc?"
+  },
+  "common": {
+    "save": "Lưu",
+    "cancel": "Hủy",
+    "delete": "Xóa",
+    "edit": "Sửa",
+    "close": "Đóng",
+    "confirm": "Xác nhận",
+    "yes": "Có",
+    "no": "Không",
+    "loading": "Đang tải...",
+    "error": "Có lỗi xảy ra",
+    "success": "Thành công",
+    "language": "Ngôn ngữ",
+    "actions": "Hành động"
+  },
+  "about": {
+    "title": "Giới Thiệu",
+    "description": "Ứng dụng quản lý cây gia phả dòng họ. Hỗ trợ hiển thị cây phả, tìm kiếm, và xuất dữ liệu.",
+    "features": "Tính năng",
+    "featureList": {
+      "tree": "Hiển thị cây gia phả dọc và ngang",
+      "search": "Tìm kiếm và lọc thành viên",
+      "export": "Xuất PDF, ảnh, và sao lưu JSON",
+      "bilingual": "Hỗ trợ song ngữ Việt - Anh",
+      "offline": "Hoạt động offline, dữ liệu lưu trên trình duyệt"
+    },
+    "storage": "Dữ liệu được lưu trên trình duyệt của bạn (localStorage). Hãy sao lưu JSON thường xuyên để tránh mất dữ liệu."
+  },
+  "empty": {
+    "title": "Chào mừng đến với Gia Phả",
+    "description": "Bắt đầu bằng cách thêm thành viên đầu tiên của dòng họ.",
+    "addFirst": "Thêm Thành Viên Đầu Tiên",
+    "orImport": "hoặc",
+    "importData": "Nhập dữ liệu từ file JSON"
+  }
+}
