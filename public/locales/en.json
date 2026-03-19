@@ -107,6 +107,7 @@
     "title": "Welcome to Family Tree",
     "description": "Start by adding the first member of your family.",
     "addFirst": "Add First Member",
+    "loadSample": "Load sample data (Nguyen family)",
     "orImport": "or",
     "importData": "Import data from JSON file"
   }

@@ -107,6 +107,7 @@
     "title": "Chào mừng đến với Gia Phả",
     "description": "Bắt đầu bằng cách thêm thành viên đầu tiên của dòng họ.",
     "addFirst": "Thêm Thành Viên Đầu Tiên",
+    "loadSample": "Tải dữ liệu mẫu (Họ Nguyễn)",
     "orImport": "hoặc",
     "importData": "Nhập dữ liệu từ file JSON"
   }

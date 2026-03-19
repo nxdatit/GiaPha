@@ -2,7 +2,8 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useFamilyTreeStore } from '../store/familyTreeStore';
 import { useUIStore } from '../store/uiStore';
-import { TreePine, UserPlus, Upload } from 'lucide-react';
+import { TreePine, UserPlus, Upload, Database } from 'lucide-react';
+import { generateSampleData } from '../data/sampleData';
 import TreeCanvas from '../components/tree/TreeCanvas';
 import TreeControls from '../components/tree/TreeControls';
 import PersonDetail from '../components/person/PersonDetail';
@@ -70,15 +71,24 @@ export function TreePage() {
                 <UserPlus className="w-5 h-5" />
                 {t('empty.addFirst')}
               </button>
-              <div className="mt-4 text-sm text-gray-400">
-                {t('empty.orImport')}{' '}
+              <div className="mt-4 flex flex-col items-center gap-3">
                 <button
-                  onClick={handleImport}
-                  className="text-emerald-600 hover:underline inline-flex items-center gap-1"
+                  onClick={() => importData(generateSampleData())}
+                  className="inline-flex items-center gap-2 px-5 py-2.5 border-2 border-emerald-300 text-emerald-700 font-medium rounded-lg hover:bg-emerald-50 transition-colors"
                 >
-                  <Upload className="w-3 h-3" />
-                  {t('empty.importData')}
+                  <Database className="w-4 h-4" />
+                  {t('empty.loadSample')}
                 </button>
+                <div className="text-sm text-gray-400">
+                  {t('empty.orImport')}{' '}
+                  <button
+                    onClick={handleImport}
+                    className="text-emerald-600 hover:underline inline-flex items-center gap-1"
+                  >
+                    <Upload className="w-3 h-3" />
+                    {t('empty.importData')}
+                  </button>
+                </div>
               </div>
             </div>
           </div>
